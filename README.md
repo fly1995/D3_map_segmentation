@@ -20,4 +20,9 @@ steps:
 6.Predict_2017ACDC.py
 7. ACDC test: https://acdc.creatis.insa-lyon.fr
 
-MS-CMRSeg 2019, MyoPS 2020, ACDC 2017: The training method of the three data sets is the same.
+MS-CMRSeg 2019, MyoPS 2020: train and test
+External_validation_prediction.py
+External_validation_prediction_map.py
+External_validation_train.py
+External_validation_train_map.py
+compute_metrics.py
