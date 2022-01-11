@@ -1,5 +1,5 @@
 # D3_map_segmentation
-Paper: A Novel Framework with Weighted Decision Map Based on Convolutional Neural Network for Cardiac MR Segmentation(UnderReview)
+Paper: A Novel Framework with Weighted Decision Map Based on Convolutional Neural Network for Cardiac MR Segmentation
 
 Data_aug.py Data augmentation
 Get_map.py Get decision map
@@ -10,6 +10,7 @@ Metrics.py Contains all evaluation indicators used in the paper
 Network.py Contains all network structures used in the paper
 Train_2017ACDC.py train segmentation network
 Train_map.py train decision map
+(reviewers suggest deleting the experiments of ACDC in final version)
 
 steps:
 1.Get_map.py
@@ -20,7 +21,7 @@ steps:
 6.Predict_2017ACDC.py
 7. ACDC test: https://acdc.creatis.insa-lyon.fr
 
-MS-CMRSeg 2019, MyoPS 2020: train and test
+MS-CMRSeg 2019, MyoPS 2020: train and test(dada process: crop center area and data_aug)
 External_validation_prediction.py
 External_validation_prediction_map.py
 External_validation_train.py
